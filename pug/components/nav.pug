@@ -1,0 +1,5 @@
+nav
+    ul
+        each value, index in {'Главная' : 'index', 'Портфолио' : 'portfolio', 'Контакты' : 'contacts'}
+            li
+                a(href= value + ".html")= index

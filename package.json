@@ -1,0 +1,19 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "Персональный сайт Старина Андрея",
+  "scripts": {
+    "view": "explorer index_.html",
+    "build:less": "lessc less/styles.less css/styles.css",
+    "build:pug": "pug pug/index.pug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anst-foto/web_7.git"
+  },
+  "private": true,
+  "devDependencies": {
+    "less": "^4.4.0",
+    "pug": "^3.0.3"
+  }
+}
